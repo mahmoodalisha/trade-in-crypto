@@ -37,8 +37,8 @@ export const fetchCryptoAPI = async (props) => {
   const options = {
     method: "GET",
     headers: {
-      "X-RapidAPI-Key": "2902955614msha80aa2c52d1724fp1ca1d8jsn379f96e15fc2",
-      "X-RapidAPI-Host": "coinranking1.p.rapidapi.com",
+      "X-RapidAPI-Key": "process.env.REACT_APP_CRYPTO_RAPIDAPI_HOST",
+      "X-RapidAPI-Host": "process.env.REACT_APP_RAPIDAPI_KEY",
     },
   };
 
